@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(13,209,255);
+    background: linear-gradient(90deg, rgba(13,209,255,0.9752275910364145) 22%, rgba(112,255,0,1) 54%, rgba(0,212,255,1) 100%);
+}
+input{
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+.player{
+    font-size: 30px;
+}
+main{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding-top: 200px;
+}
+header{
+    text-align: center;
+    margin-top: 100px;
+}
+#reset{
+    display: block;
+    margin: 0 auto;
+    color: rebeccapurple;
+    margin-top: 4px;
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    text-align: center;
+    margin: 20px;
+}
